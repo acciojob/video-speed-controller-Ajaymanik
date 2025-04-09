@@ -1,2 +1,13 @@
+.progress {
+  background: #eee;
+  height: 10px;
+  width: 100%;
+  cursor: pointer;
+}
 
-/* Your CSS Code here. */
+.progress__filled {
+  width: 0%;
+  background: #f66;
+  flex: 0;
+  height: 100%;
+}
