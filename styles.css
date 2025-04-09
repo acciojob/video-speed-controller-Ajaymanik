@@ -1,13 +1,14 @@
 .progress {
-  background: #eee;
+  background: #ccc;
   height: 10px;
   width: 100%;
   cursor: pointer;
+  margin-top: 10px;
 }
 
 .progress__filled {
   width: 0%;
   background: #f66;
-  flex: 0;
   height: 100%;
+  flex-basis: 0%;
 }
